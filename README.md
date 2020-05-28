@@ -7,7 +7,7 @@ to assist WB teams in allocating resources sub-nationally and help them supervis
 ##### Priorities country outputs are:
 Write to @KPGeo or @bpstewar for access to the resources below. The complete list of completed countries is [here]().
 
-*beta versions of all data for each country are available [here - read only](https://worldbankgroup-my.sharepoint.com/:f:/g/personal/kgarrett_worldbank_org/Emezutcmw_xLgUGBUml_RCwB9JDtdKrL1kz0LyXt1DRFbg?e=H7zaBX)*
+*beta versions of all data for each country are available [here - read only]()*
 
 To gather new data on health facility location and capacity have counterparts fill out [this form](https://ee.kobotoolbox.org/x/ZbDMXgiT)
 
