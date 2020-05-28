@@ -602,7 +602,7 @@ hnp_indicators = {
           "Name":"WorldPop",
           "file_link":["REST EndPoint","PostGres Table","csv"],
           "source":["http://www.worldpop.org/","https://doi.org/10.1038/sdata.2017.4"],
-          "cite":[""Tatem, Andrew J. 2017 'WorldPop, open data for spatial demography' Scientific Data, 170004,vol. 4, Issue 1 -"],
+          "cite":["Tatem, Andrew J. 2017 'WorldPop, open data for spatial demography' Scientific Data, 170004,vol. 4, Issue 1 -"],
           "vars":["_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
           "description":"High resolution, contemporary data on human population distributions, their characteristics and changes over time are a prerequisite for the accurate measurement of the impacts of population growth, for monitoring changes and for planning interventions. WorldPop aims to meet these needs through the provision of detailed and open access spatial demographic datasets built using transparent approaches. The Scientific Data WorldPop collection brings together descriptor papers on these datasets and is introduced here."     },
