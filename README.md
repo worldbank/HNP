@@ -25,8 +25,6 @@ To gather new data on health facility location and capacity have counterparts fi
 |AFR|Senegal|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |AFR|South Africa|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 
-<img src="images/COVID_Risk_Mapping.png" width=1000>
-
 ## The Goal is:
  to assess and monitor the spatial and temporal distribution of risk factors of a COVID-19 outbreak to a given country along biological, behavioral and environmental lines. Input data are both descriptive and dynamic. Therefore, our chosen strategy is to come up with a consistent derivative data product (or map layer) that can serve as a lens to assess both static and dynamic factors and then to automate the process of generation and share this layer to all WB teams and partners who can use it as a common standard for input into resource allocation decisions.
 
