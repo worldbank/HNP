@@ -1,4 +1,5 @@
-hnp_themes = {
+{
+"hnp_themes" : {
       "Areas of Interest": ["P2","P10","R7","R8"],
       "Population": ["P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12","P13"],
       "Amenities": ["A1","A2","A3","A4","A5","A6","A7","A8"],
@@ -7,9 +8,9 @@ hnp_themes = {
       "Non Pharmaceutical interventions": ["C1","C2","C3","C4","C5","C6","C7","C8","C9","C10","C11"],
       "Health Policy": ["H1","H2","H3","H4","H5","H6","H7"],
       "Facilities": ["F1","F2","F3","F4","F5","F6","F7","F8"],
-      "Mobility Indicators": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12"],
+      "Mobility Indicators": ["M1","M2","M3","M4","M5","M6","M7","M8","M9","M10","M11","M12"]
     },
-hnp_indicators = {
+"hnp_indicators": {
       "P1": {
           "Name":"Urban_Population",
           "file_link":["REST","PostGre Table","csv"],
@@ -18,7 +19,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"A derivative of WorldPop 2020 population density at 1km2. This vector layer applies the newly adopted UN defiinition of Urban to the WorldPop grid. https://unstats.un.org/unsd/statcom/50th-session/ This people centric definition of Urban each grid cell is evaluated on two dimensions, the number of people in the cell must be greater than 300 and it must be contiguous with similarly populated cells in an area with an accumulated population of 5000 people."     },
+          "description":"A derivative of WorldPop 2020 population density at 1km2. This vector layer applies the newly adopted UN defiinition of Urban to the WorldPop grid. https:\/\/unstats.un.org\/unsd\/statcom\/50th-session\/ This people centric definition of Urban each grid cell is evaluated on two dimensions, the number of people in the cell must be greater than 300 and it must be contiguous with similarly populated cells in an area with an accumulated population of 5000 people."     },
       "P2": {
           "Name":"Risk from Demographics",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -36,7 +37,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https://github.com/beoutbreakprepared/nCoV2019"     },
+          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https:\/\/github.com\/beoutbreakprepared\/nCoV2019"     },
       "P4": {
           "Name":"Obesity",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -45,7 +46,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"    },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"    },
       "P5": {
           "Name":"HeartDisease",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -54,7 +55,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "P6": {
           "Name":"Diabetes",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -63,7 +64,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "P7": {
           "Name":"ImmuneComp",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -72,7 +73,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "P8": {
           "Name":"Cancer",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -81,7 +82,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "P9": {
           "Name":"Density",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -135,7 +136,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "A2": {
           "Name":"Water_fountain_shared",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -144,7 +145,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "A3": {
           "Name":"Water_toilet_public",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -153,7 +154,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "A4": {
           "Name":"Water_toilet_shared",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -162,7 +163,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"      },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"      },
       "A5": {
           "Name":"Transport_public",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -171,7 +172,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "A6": {
           "Name":"Access_Health_Facility_public",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -189,7 +190,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https://github.com/beoutbreakprepared/nCoV2019"     },
+          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https:\/\/github.com\/beoutbreakprepared\/nCoV2019"     },
       "S2": {
           "Name":"Case_Rates_by_Age_Death",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -198,7 +199,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https://github.com/beoutbreakprepared/nCoV2019"     },
+          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https:\/\/github.com\/beoutbreakprepared\/nCoV2019"     },
       "S3": {
           "Name":"Case_Rates_by_Gender_Severe",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -207,7 +208,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https://github.com/beoutbreakprepared/nCoV2019"     },
+          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https:\/\/github.com\/beoutbreakprepared\/nCoV2019"     },
       "S4": {
           "Name":"Case_Rates_by_Gender_Death",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -216,7 +217,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https://github.com/beoutbreakprepared/nCoV2019"     },
+          "description":"Derived from the Outbreak and Pandemic Preparedness team at the Institute for Health Metrics and Evaluation, University of Washington Contact: pigottdm@uw.edu https:\/\/github.com\/beoutbreakprepared\/nCoV2019"     },
       "S5": {
           "Name":"Case_Rates_Recovered",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -225,7 +226,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"WHO Health Emergency Dashboard https://covid19.who.int/"     },
+          "description":"WHO Health Emergency Dashboard https:\/\/covid19.who.int\/"     },
       "S6": {
           "Name":"Tests_total",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -234,7 +235,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "S7": {
           "Name":"Tests_pos",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -270,7 +271,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https://dashboards-dev.sprinklr.com/data/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
+          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https:\/\/dashboards-dev.sprinklr.com\/data\/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
       "S11":{
           "Name":"Cumulative Deaths",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -279,7 +280,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https://dashboards-dev.sprinklr.com/data/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
+          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https:\/\/dashboards-dev.sprinklr.com\/data\/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
       "S12":{
           "Name":"Confirmed",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -288,7 +289,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https://dashboards-dev.sprinklr.com/data/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
+          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https:\/\/dashboards-dev.sprinklr.com\/data\/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."      },
       "S13":{
           "Name":"Cumulative Confirmed",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -297,7 +298,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https://dashboards-dev.sprinklr.com/data/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."     },
+          "description":"The World Health Organization's Coronavirus Disease Dashboard accessed via realtime query from https:\/\/dashboards-dev.sprinklr.com\/data\/9043/global-covid19-who-gis.json - This provides a one aggreated realtime national number."     },
       "C1": {
           "Name":"Close_school ",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -306,111 +307,111 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "C2": {
           "Name":"Close_workplaces",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C3": {
           "Name":"Cancel_events",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C4": {
           "Name":"Limit_gathering_size",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C5": {
           "Name":"Close_transit_public",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C6": {
           "Name":"Stay_home_requirements",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C7": {
           "Name":"Limit_movement",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "C8": {
           "Name":"Limit_international_travel",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "E1": {
           "Name":"Econ_support_debt",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "E2": {
           "Name":"Econ_support_income",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "E3": {
           "Name":"Econ_support_econ",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "E4": {
           "Name":"Econ_support_allies",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "H1": {
           "Name":"Health_engage_public",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "H2": {
           "Name":"Health_policy_testing",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["https://github.com/OxCGRT/covid-policy-tracker/"],
-          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)""Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
+          "source":["https:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"],
+          "cite":["Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020)","Oxford COVID-19 Government Response Tracker. Blavatnik School of Government"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Calculated per capita assessement of H2 based on methods in "cite" from "source""     },
+          "description":"Calculated per capita assessement of H2 based on methods in \"cite\" from \"source\""     },
       "H3": {
           "Name":"Health_policy_contact_tracing",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -419,7 +420,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See	https://github.com/OxCGRT/covid-policy-tracker/"     },
+          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See\thttps:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"     },
       "H4": {
           "Name":"Health_support_healthcare",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -428,7 +429,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See	https://github.com/OxCGRT/covid-policy-tracker/"     },
+          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See\thttps:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"     },
       "H5": {
           "Name":"Health_support_vaccination",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -437,7 +438,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See	https://github.com/OxCGRT/covid-policy-tracker/"     },
+          "description":"Thomas Hale, Sam Webster, Anna Petherick, Toby Phillips, and Beatriz Kira. (2020). Oxford COVID-19 Government Response Tracker. Blavatnik School of Government. See\thttps:\/\/github.com\/OxCGRT\/covid-policy-tracker\/"     },
       "F1": {
           "Name":"Hsptl_Beds",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -446,7 +447,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F2": {
           "Name":"Hsptl_location",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -455,7 +456,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":" World Health Organization's Public Sector Health Facilities database: https://www.who.int/malaria/areas/surveillance/public-sector-health-facilities-ss-africa/en/ The excel file itself can be directly obtained here: https://github.com/worldbank/WB_COVID_Response/wiki/Annotated-Bibliography"     },
+          "description":" World Health Organization's Public Sector Health Facilities database: https:\/\/www.who.int\/malaria\/areas\/surveillance\/public-sector-health-facilities-ss-africa\/en\/ The excel file itself can be directly obtained here: https:\/\/github.com\/worldbank\/WB_COVID_Response\/wiki\/Annotated-Bibliography"     },
       "F3": {
           "Name":"Hsptl_icu",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -464,7 +465,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F4": {
           "Name":"Hsptl_respirators",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -473,7 +474,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F5": {
           "Name":"Hsptl_doctors",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -482,7 +483,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F6": {
           "Name":"Hsptl_nurses",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -491,7 +492,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F7": {
           "Name":"Hsptl_supply_ppe",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -500,7 +501,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "F8": {
           "Name":"Hsptl_supply_tests",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -509,7 +510,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org/covid/data-downloads"     },
+          "description":"This data is often incomplete. Unless otherwise stated in a specific country case, this data was drawn from the Institute for Health Metrics and Evaluation, University of Washington: http://www.healthdata.org\/covid\/data-downloads"     },
       "M1": {
           "Name":"NPI_Relative_Compliance",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -626,7 +627,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"Fraym https://go.fraym.io/coviddatafraym "     },
+          "description":"Fraym https:\/\/go.fraym.io\/coviddatafraym "     },
       "R3": {
           "Name":"DLR",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -634,7 +635,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"'Assessment of building height/volume in a given city block."     },
+          "description":"'Assessment of building height\/volume in a given city block."     },
       "R4": {
           "Name":"DHS",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -643,7 +644,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https://www.statcompiler.com/en/"     },
+          "description":"The DHS Program STATcompiler makes custom tables based on demographic and health surveys in 90+ countries: https:\/\/www.statcompiler.com\/en\/"     },
       "R5": {
           "Name":"Census",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -683,7 +684,7 @@ hnp_indicators = {
       "R10": {
           "Name":"WorldPop",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
-          "source":["http://www.worldpop.org/","https://doi.org/10.1038/sdata.2017.4"],
+          "source":["http://www.worldpop.org\/","https:\/\/doi.org\/10.1038/sdata.2017.4"],
           "cite":["Tatem, Andrew J. 2017 'WorldPop, open data for spatial demography' Scientific Data, 170004,vol. 4, Issue 1 -"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
@@ -696,7 +697,7 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":" This spatial raster dataset depicts the distribution of population, expressed as the number of people per cell. Residential population estimates for target years 1975, 1990, 2000 and 2015 provided by CIESIN GPWv4.10 were disaggregated from census or administrative units to grid cells, informed by the distribution and density of built-up as mapped in the Global Human Settlement Layer (GHSL) global layer per corresponding epoch. https://ghsl.jrc.ec.europa.eu/ghs_pop2019.php"     },
+          "description":" This spatial raster dataset depicts the distribution of population, expressed as the number of people per cell. Residential population estimates for target years 1975, 1990, 2000 and 2015 provided by CIESIN GPWv4.10 were disaggregated from census or administrative units to grid cells, informed by the distribution and density of built-up as mapped in the Global Human Settlement Layer (GHSL) global layer per corresponding epoch. https:\/\/ghsl.jrc.ec.europa.eu\/ghs_pop2019.php"     },
       "V2": {
           "Name":"PM25",
           "file_link":["REST EndPoint","PostGres Table","url","csv"],
@@ -705,4 +706,6 @@ hnp_indicators = {
           "cite":["_FORMAL_CITATION_HARVARD_"],
           "vars":["_PROXY_VARIABLE_"],
           "access":["Public","Official Use Only","Confidential","Strictly Confidential"],
-          "description":"_INPUT_"     },
+          "description":"_INPUT_"     }
+      }
+    }
