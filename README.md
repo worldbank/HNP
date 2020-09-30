@@ -5,19 +5,18 @@ This repo coordinates and documents Health, DECAT, and consulting firms support 
 to assist WB teams in allocating resources sub-nationally and help them supervise their COVID projects. The derivative data outputs must be useful, honest, transparent, modular, repeatable and open to contributions from others. Wherever possible, derivative outputs should conform to WB policies on privacy and ethics, while at the same time able to be presented to government counterparts under appropriate circumstances.   
 
 ##### Priorities country outputs are:
-Write to @KPGeo or @bpstewar for access to the resources below. The complete list of completed countries is [here]().
-
-*beta versions of all data for each country are available [here - read only]()*
+Write to @KPGeo or @bpstewar for access to the resources below.
 
 To gather new data on health facility location and capacity have counterparts fill out [this form](https://ee.kobotoolbox.org/x/ZbDMXgiT)
 
+Table to be completed shortly...
 |Region|Country|Available Inputs|Data Access|Static Maps|Webmap|Dashboard|
 |---|---|---|---|---|---|---|
-|EAP|Indonesia|View|[Data Download]()|[Maps/Chart Download]()|[IDN Webmap]()|[See Demo]()|
+|EAP|Indonesia|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |EAP|Philippines|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |SAR|Pakistan|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |LAC|Mexico|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
-|AFR|Kenya|View|[Data]()|Maps/Chart Download|[KEN Webmap]()|---|
+|AFR|Kenya|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |AFR|Ethiopia|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |AFR|Nigeria|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
 |AFR|Ghana|View|Data Download|Maps/Chart Download|View Webmap|See Demo|
